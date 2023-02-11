@@ -1,0 +1,17 @@
+﻿<Window x:Class="Mum_project_1_2.EWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mum_project_1_2"
+        mc:Ignorable="d"
+        Title="EWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Nazvanie" HorizontalAlignment="Left" Height="50" Margin="285,50,0,0" TextWrapping="Wrap" Text="ТЕСТ ЗАВЕРШЁН" VerticalAlignment="Top" Width="232" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+        <TextBox x:Name="Itog" HorizontalAlignment="Left" Height="50" Margin="10,100,0,0" TextWrapping="Wrap" Text="Итоги:" VerticalAlignment="Top" Width="232" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+        <TextBox x:Name="Time_t" HorizontalAlignment="Left" Height="50" Margin="10,150,0,0" TextWrapping="Wrap" Text="Потраченное время:" VerticalAlignment="Top" Width="292" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+        <TextBox x:Name="Time_w" HorizontalAlignment="Left" Height="50" Margin="307,150,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+        <TextBox x:Name="Mis_t" HorizontalAlignment="Left" Height="50" Margin="10,200,0,0" TextWrapping="Wrap" Text="Количество ошибок:" VerticalAlignment="Top" Width="292" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+        <TextBox x:Name="mis_w" HorizontalAlignment="Left" Height="50" Margin="307,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="292" FontSize="30" IsEnabled="False" BorderBrush="White"/>
+    </Grid>
+</Window>
